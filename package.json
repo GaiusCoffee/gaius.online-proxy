@@ -1,0 +1,15 @@
+{
+  "name": "gaius.online-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "supervisor -i . server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redbird": "^0.7.0"
+  }
+}
